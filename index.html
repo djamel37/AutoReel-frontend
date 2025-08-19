@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoReel AI - Text to Reel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 AutoReel AI</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Turn your text into short reels with AI</h2>
+    <p>Realistic voice + automatic stock video 🎤🎥</p>
+  </section>
+
+  <section class="form-section">
+    <textarea id="inputText" placeholder="Write your text here..."></textarea>
+    <button onclick="generateReel()">Generate Reel</button>
+    <div id="status"></div>
+    <video id="resultVideo" controls style="display:none; margin-top:20px; max-width:100%;"></video>
+  </section>
+
+  <footer>
+    <p>© 2025 AutoReel AI. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
