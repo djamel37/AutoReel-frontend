@@ -1,0 +1,33 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+header {
+  background: #111; color: #fff;
+  padding: 15px; display: flex; justify-content: space-between; align-items: center;
+}
+header nav a {
+  color: #fff; margin: 0 10px; text-decoration: none;
+}
+.hero {
+  text-align: center; padding: 50px 20px; background: #007bff; color: white;
+}
+.form-section {
+  padding: 20px; text-align: center;
+}
+textarea {
+  width: 80%; height: 120px; margin-bottom: 15px; padding: 10px;
+}
+button {
+  padding: 10px 20px; background: #28a745; border: none; color: white; cursor: pointer;
+}
+.page-content {
+  padding: 20px;
+}
+footer {
+  background: #111; color: white; text-align: center; padding: 10px;
+  position: fixed; bottom: 0; width: 100%;
+}
